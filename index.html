@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Outfit Recommender</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather-Based Outfit Recommender</h1>
+        <div class="search-box">
+            <input type="text" id="cityInput" placeholder="Enter city name...">
+            <button onclick="getWeather()">Check</button>
+        </div>
+        <div class="weather-info">
+            <h2 id="cityName"></h2>
+            <p id="temperature"></p>
+            <p id="condition"></p>
+        </div>
+        <div class="outfit-suggestion">
+            <h3>Recommended Outfit</h3>
+            <p id="outfit"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
